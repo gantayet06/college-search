@@ -1,0 +1,46 @@
+/* Common CSS styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    color: #ff0000;
+}
+
+/* Search bar styles */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type=text] {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* College card styles */
+.college-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.college-card h2 {
+    margin-bottom: 5px;
+}
+.college-card p {
+    margin: 5px 0;
+}

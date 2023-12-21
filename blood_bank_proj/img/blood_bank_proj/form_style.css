@@ -1,0 +1,60 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin-top: 50px;
+      }
+
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 600px; /* Total width of the form */
+        display: grid;
+        grid-template-columns: 0.6fr 2fr; /* Adjusted column proportions */
+        gap: 0px; /* Adjust the gap between columns */
+        margin: auto;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+        grid-column: span 2; /* Spanning across both columns */
+      }
+
+      label {
+        display: inline-block;
+        width: 120px; /* Fixed width for labels */
+        margin-bottom: 5px; /* Adjusted margin for spacing */
+        margin-top: 5px;
+        color: #333;
+      }
+
+      input,
+      select {
+        width: calc(100% - 10px); /* Adjusted width for input/select fields */
+        padding: 8px;
+        margin-bottom: 15px; /* Adjusted margin for spacing */
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: inline-block;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        grid-column: span 2; /* Spanning across both columns */
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }

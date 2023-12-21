@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Bank User Sign In</title>
+    <!-- You can link your CSS file here if needed -->
+    <link rel="stylesheet" href="nav_style.css" />
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      form {
+        width: 30%;
+        background-color: #fff;
+        padding: 2%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+      }
+
+      input {
+        width: 70%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #3498db;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #2980b9;
+      }
+
+      .container {
+        margin-left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="home_pg.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="signin.html">Login</a>
+      <a href="signup.html">SignUp</a>
+    </div>
+    <form action="signin.jsp" method="post">
+      <h2>User Sign In</h2>
+      <div class="container">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required /><br />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <input type="submit" value="Sign In" />
+      </div>
+    </form>
+  </body>
+</html>

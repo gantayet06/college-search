@@ -1,0 +1,20 @@
+.about_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about_vision{
+    margin-top: 5%;
+    margin-left: 1%;
+    padding:20px;
+}
+.about_goal{
+    margin-top: 5%;
+}
+#about_p{
+    font-size: 20px;
+    margin-left: 3%;
+}
+#about_h{
+    font-size: 30px;
+}

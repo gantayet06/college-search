@@ -1,0 +1,44 @@
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  grid-column: span 2;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #333;
+}
+
+input,
+select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  grid-column: span 2;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
